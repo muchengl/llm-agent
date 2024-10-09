@@ -163,3 +163,5 @@ log_files/
 */config_files*/*8.json
 */config_files*/*9.json
 */config_files*/test.json
+
+/basic_agent/result/
