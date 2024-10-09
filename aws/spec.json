@@ -1,0 +1,14 @@
+{
+    "security_group": {
+        "name": "llm-agent",
+        "description": "state driven llm-agent",
+        "id": "${Token[TOKEN.17]}",
+        "ip_range": "165.95.0.0/16"
+    },
+    "key_pair": {
+        "key_name": "lm-agent-key-pair"
+    },
+    "instance": {
+        "instance_name": "WebArenaServer"
+    }
+}
