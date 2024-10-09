@@ -1,0 +1,35 @@
+{
+  "vpc-provider:account=597088017422:filter.isDefault=true:region=us-east-2:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-0d79434711fa56e63",
+    "vpcCidrBlock": "172.31.0.0/16",
+    "ownerAccountId": "597088017422",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Public",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-02ea0731c8a64b103",
+            "cidr": "172.31.0.0/20",
+            "availabilityZone": "us-east-2a",
+            "routeTableId": "rtb-07d1b07824dfd1317"
+          },
+          {
+            "subnetId": "subnet-0679b7bf489f3c796",
+            "cidr": "172.31.16.0/20",
+            "availabilityZone": "us-east-2b",
+            "routeTableId": "rtb-07d1b07824dfd1317"
+          },
+          {
+            "subnetId": "subnet-00c5e80c35602b0d4",
+            "cidr": "172.31.32.0/20",
+            "availabilityZone": "us-east-2c",
+            "routeTableId": "rtb-07d1b07824dfd1317"
+          }
+        ]
+      }
+    ]
+  },
+  "ami:account=597088017422:filters.image-type.0=machine:filters.name.0=webarena:filters.state.0=available:region=us-east-2": "ami-06290d70feea35450"
+}
