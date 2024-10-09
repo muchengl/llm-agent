@@ -1,4 +1,4 @@
-# LLM Agent Research Pipeline
+# Website LLM Agent Pipeline
 
 ## WebArena Environment Setup Pipeline
 
@@ -83,6 +83,5 @@ python run.py \
 Reset Env:
 ```shell
 cd ..
-
 ./env/reset_webarena.sh
 ```
