@@ -2,7 +2,7 @@
 
 ## Environment Setup Pipeline
 
-Modify example_env.sh and rename it to env.sh.
+Modify example_setup.sh and rename it to setup.sh.
 
 ### Setup AWS & WebArenaServer
 Init AWS toolchain
@@ -24,7 +24,7 @@ cdk deploy
 
 ### Setup Environment variables
 ```shell
-./env.sh -e
+./setup.sh -e
 ```
 
 ### Init WebArena Environment
