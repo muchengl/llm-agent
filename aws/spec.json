@@ -2,8 +2,8 @@
     "security_group": {
         "name": "llm-agent",
         "description": "state driven llm-agent",
-        "id": "${Token[TOKEN.17]}",
-        "ip_range": "165.95.0.0/16"
+        "id": "${Token[TOKEN.22]}",
+        "ip_range": "165.95.0.0/24"
     },
     "key_pair": {
         "key_name": "lm-agent-key-pair"

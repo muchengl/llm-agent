@@ -5,7 +5,7 @@ from aws.aws_stack import WebArenaEc2Stack
 import os
 
 app = cdk.App()
-stack = WebArenaEc2Stack(app, "Ec2Stack",
+stack = WebArenaEc2Stack(app, "WebArenaEc2Stack",
     # If you don't specify 'env', this stack will be environment-agnostic.
     # Account/Region-dependent features and context lookups will not work,
     # but a single synthesized template can be deployed anywhere.

@@ -29,6 +29,7 @@ ssh -t ubuntu@$HOSTNAME << EOF
   docker exec gitlab gitlab-ctl reconfigure
 EOF
 
+echo "=== Next Step!!! ===="
 
 echo export SHOPPING="http://$HOSTNAME:7770"
 echo export SHOPPING_ADMIN="http://$HOSTNAME:7780/admin"
